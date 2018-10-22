@@ -6,3 +6,9 @@ dubbo-demo/dubbo-demo-consumer/.classpath
 dubbo-demo/dubbo-demo-consumer/.project
 dubbo-demo/dubbo-demo-provider/.project
 dubbo-demo/dubbo-demo-provider/.classpath
+dubbo-spring-boot/api/.classpath
+dubbo-spring-boot/api/.project
+dubbo-spring-boot/consumer/.classpath
+dubbo-spring-boot/consumer/.project
+dubbo-spring-boot/provider/.classpath
+dubbo-spring-boot/provider/.project
