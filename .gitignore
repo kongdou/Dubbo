@@ -12,3 +12,17 @@ dubbo-spring-boot/consumer/.classpath
 dubbo-spring-boot/consumer/.project
 dubbo-spring-boot/provider/.classpath
 dubbo-spring-boot/provider/.project
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/main/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/main/java/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/main/java/fun/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/main/java/fun/deepsky/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/main/java/fun/deepsky/dubbo/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/src/main/java/fun/deepsky/dubbo/springboot/.DS_Store
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-provider/.classpath
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-provider/.project
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/.project
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/.classpath
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/.DS_Store
+dubbo-spring-boot-samples/.DS_Store
+dubbo-spring-boot-samples/.project
