@@ -13,12 +13,20 @@ public class Application {
 			System.setProperty("java.net.preferIPv4Stack", "true");
 			ReferenceConfig<GreetingService> referenceConfig = new ReferenceConfig<GreetingService>();
 	        referenceConfig.setApplication(new ApplicationConfig("dubbo-demo-consumer"));
+	        //组播
 	        //referenceConfig.setRegistry(new RegistryConfig("multicast://224.5.6.7:1234"));
+	        //本地
+	        //referenceConfig.setUrl("localhost:20880");
+	        //zookeeper
+	        RegistryConfig registryConfig = new RegistryConfig("localhost:2181");
+	        registryConfig.setProtocol("zookeeper");
+	        referenceConfig.setRegistry(registryConfig);
+	        
 	        referenceConfig.setInterface(GreetingService.class);
-	        referenceConfig.setUrl("localhost:20880");
 	        GreetingService greetingService = referenceConfig.get();
 	        System.out.println(greetingService.sayHello("world"));
-	        /*
+	        
+	        /*使用配置文件方式
 			ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"consumer.xml"});
 			context.start();
 			
