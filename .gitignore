@@ -1,0 +1,8 @@
+
+dubbo-demo/dubbo-demo-api/.classpath
+dubbo-demo/dubbo-demo-api/.project
+*.prefs
+dubbo-demo/dubbo-demo-consumer/.classpath
+dubbo-demo/dubbo-demo-consumer/.project
+dubbo-demo/dubbo-demo-provider/.project
+dubbo-demo/dubbo-demo-provider/.classpath
