@@ -26,3 +26,6 @@ dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/.classpath
 dubbo-spring-boot-samples/dubbo-spring-boot-sample-api/.DS_Store
 dubbo-spring-boot-samples/.DS_Store
 dubbo-spring-boot-samples/.project
+*.class
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-consumer/.project
+dubbo-spring-boot-samples/dubbo-spring-boot-sample-consumer/.classpath
