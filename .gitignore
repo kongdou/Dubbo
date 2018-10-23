@@ -29,3 +29,4 @@ dubbo-spring-boot-samples/.project
 *.class
 dubbo-spring-boot-samples/dubbo-spring-boot-sample-consumer/.project
 dubbo-spring-boot-samples/dubbo-spring-boot-sample-consumer/.classpath
+*.log
